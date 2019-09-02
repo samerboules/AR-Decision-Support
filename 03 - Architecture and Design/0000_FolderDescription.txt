@@ -1,0 +1,3 @@
+This folder should contain the Design, Architecture and technical description of the project.
+How you are going to implement the requirements. 
+You can add any technical notes for other team members or collaborators here.

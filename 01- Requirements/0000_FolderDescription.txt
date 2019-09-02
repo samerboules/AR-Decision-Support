@@ -1,0 +1,2 @@
+This folder should contain the Requirements and FeatureList to be implemented. 
+Requirements are the purpose your system/software should implement without delving into any technical details. (WHAT you want to implement but not HOW to implement it)
