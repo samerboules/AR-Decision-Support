@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ICTLogoCorrected" size="0.100000 0.100000" />
+    <ImageTarget name="Picture1" size="0.100000 0.100000" />
+    <ImageTarget name="AtkinsMarker" size="0.100000 0.100000" />
+    <ImageTarget name="VuforiaMarkerICT" size="10.000000 10.000000" />
+    <ImageTarget name="marker" size="0.100000 0.100000" />
+  </Tracking>
+</QCARConfig>
