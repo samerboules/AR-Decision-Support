@@ -214,6 +214,9 @@ public class MainManager : MonoBehaviour
 
         //set every NewGameObject in layer 9 to make sure that they are the only collidable objects in the scene when raycasting 
         NewGameObject.layer = 9;
+
+        DistinctiveObjectData distinctiveObjectData = NewGameObject.GetComponent<DistinctiveObjectData>();
+        distinctiveObjectData.type = IndexOfObjectToBeCreated;
     }
     #endregion
 

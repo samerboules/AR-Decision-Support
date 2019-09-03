@@ -114,6 +114,11 @@ public class CustomTrackableEventHandler : MainManager, ITrackableEventHandler
                             MyGameObject = Instantiate(ARObjectsArray[TypeToCreate]);
                             //Assign its name
                             MyGameObject.name = counterString_;
+
+                            //Assign its type
+                            DistinctiveObjectData distinctiveObjectData = MyGameObject.GetComponent<DistinctiveObjectData>();
+                            distinctiveObjectData.type = TypeToCreate;
+
                             //set the image target as parent of prefab instance
                             //MyGameObject.transform.parent = this.transform;
                             //Set the local location values of the instance using the information being held in the dictionaries
